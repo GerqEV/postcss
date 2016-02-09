@@ -1,15 +1,23 @@
-Install
+PostCSS
 ==============
 
-- egy meglevo host ala kell bemasolni a gpstuner konyvtarat, pl: localhost/gpstuner
-- letre kell hozni egy adatbazist, /dev/db.sql-t kell futtatni
-- configs/default.php alapjan letre kell hozni egy konfiguracios allomanyt, amiit az index.php 6. soraban kell megaadni
+- Install (npm, gulp required):
+$ npm install gulp-postcss postcss-mixins postcss-simple-vars postcss-nested autoprefixer-core --save-dev
 
-Rendszerkovetelmenyek:
-http://vidagergely.hu/gpstuner/info.php
+- install plugins:
+$ npm install css-mqpacker
+$ npm install cssnano
 
-Mukodo feladat itt erheto el:
-http://vidagergely.hu/gpstuner
 
-Git: 
-https://github.com/gerq/gpstuner
+- create gulpfile.js
+- create postcss:
+- compile (gulp, cli, broccoli, fly, meteor...):
+$ gulp css
+
+- Result: 
+	- css
+	- minified (nano)
+
+
+plugins (200+): 
+https://github.com/postcss/postcss
