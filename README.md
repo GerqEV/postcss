@@ -4,7 +4,7 @@ PostCSS (https://github.com/postcss/postcss)
 PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 
 
-The Advantages
+**The Advantages**
 
 - Modularity
 You need only add the plugins and functions you require for your project.
@@ -16,7 +16,7 @@ Have you ever waited for something to become available in Sass, LibSass, LESS, S
 Your CSS preprocessor uses JavaScript — a true programming language (despite what some people say!)
 - many (200+) plugins http://postcss.parts
  
-The Disadvantages
+**The Disadvantages**
 
 - Increased complexity
 Your build process will become more difficult to manage.
