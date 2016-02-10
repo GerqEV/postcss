@@ -1,23 +1,6 @@
 PostCSS (https://github.com/postcss/postcss)
 ==============
 
-- Install (npm, gulp required):
-	- $ npm install gulp-postcss postcss-mixins postcss-simple-vars postcss-nested autoprefixer-core --save-dev
-
-- install plugins:
-	- $ npm install css-mqpacker
-	- $ npm install cssnano
-
-
-- create gulpfile.js
-- create postcss:
-- compile (gulp, cli, broccoli, fly, meteor...):
-	- $ gulp css
-
-- Result: 
-	- css
-	- minified (nano)
-
 The Advantages
 
 - Modularity
@@ -37,3 +20,24 @@ Your build process will become more difficult to manage.
 - A different syntax
 PostCSS requires valid CSS
 Most preprocessors parse plain text files so any syntax is theoretically possible. PostCSS creates an object model so it requires syntactically-correct CSS from the start.
+
+
+PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
+
+- Install (npm, gulp required):
+	- $ npm install gulp-postcss postcss-mixins postcss-simple-vars postcss-nested autoprefixer-core --save-dev
+
+- install plugins:
+	- $ npm install css-mqpacker
+	- $ npm install cssnano
+
+
+- create gulpfile.js
+- create postcss:
+- compile (gulp, cli, broccoli, fly, meteor...):
+	- $ gulp css
+
+- Result: 
+	- css
+	- minified (nano)
+
