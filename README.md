@@ -1,6 +1,9 @@
 PostCSS (https://github.com/postcss/postcss)
 ==============
 
+PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
+
+
 The Advantages
 
 - Modularity
@@ -21,8 +24,6 @@ Your build process will become more difficult to manage.
 PostCSS requires valid CSS
 Most preprocessors parse plain text files so any syntax is theoretically possible. PostCSS creates an object model so it requires syntactically-correct CSS from the start.
 
-
-PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.
 
 - Install (npm, gulp required):
 	- $ npm install gulp-postcss postcss-mixins postcss-simple-vars postcss-nested autoprefixer-core --save-dev
